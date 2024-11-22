@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+body {
+  display: flex;
+  width: 900px;
+  padding: 80px;
+  align-items: center;
+  gap: 8px;
+}
+
+h1  {
+  color: #222;
+  font-family: Pretendard;
+  font-size: 160px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%; /* 160px */
+  letter-spacing: -8px;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  width: 729px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 56px;
+  flex-shrink: 0;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
+}
+
+
+section {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 24px;
+  background: var(--Logo-logocolor01, #FFF);
+  box-shadow: 2px 3px 12px 0px rgba(0, 0, 0, 0.10);
+}
+
+.profileImg {
+  width: 260px;
+  height: 260px;
+  border-radius: var(--bar-level, 20px);
+}
+
+.innerContents {
+  display: flex;
+  padding: var(--Number, 0px) 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.nameTitle {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+section h2 {
+  color: #222;
+  font-family: Pretendard;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 32px */
+  margin: 0px;
+}
+
+.subtitle {
+  color: #CCC;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 14px */
+}
+
+.introduce {
+  color: #777;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+  margin: 0;
+}
+
+.contactContents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  }
+
+.contactTitle {
+  color: #222;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 20px */
+  margin: 0;
+}
+
+.contactaddress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.contactaddress a {
+  color: #222;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; 
+}
