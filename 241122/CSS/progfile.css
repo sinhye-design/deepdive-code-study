@@ -7,18 +7,19 @@ body {
   height: 100vh;
 }
 .container {
-  width: 80%;
+  width: 50%;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
 }
 .profileImg {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0,0.15);
 }
 
 h1,h2,p {
