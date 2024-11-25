@@ -15,8 +15,9 @@ body {
 
 .galleryItem {
   background-color: ivory;
-  margin: 20px;
-  flex: 1 1 calc(33.333% - 20px);
+  margin: 20px; 
+  /* 마진계산을 잘 할 필요가 있다... */
+  /* flex: 1 1 (33.333% - 40px); */
   height: 200px;
   box-sizing: border-box;
   border-radius: 8px;
