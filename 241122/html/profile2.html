@@ -29,20 +29,28 @@
               </div>
         </section>
         
-      <h3>안녕하세요, 반가워요!</h3>
+        
+        <div class="formContainer">
+        <h3>안녕하세요, 반가워요!</h3>
 
-      <div class="formContainer">
         <form action="/" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
+          <div class="inputFieldName">
+            <label for="name">이름이 어떻게 되시나요?</label>
+            <input type="text" id="name" name="name" placeholder="이름" required>
+          </div>
 
-          <label for="message">Message:</label>
-          <input type="text" id="message" name="message" required>
+          <div class="inputFieldEmail">
+            <label for="email">이메일 주소를 알려주세요</label>
+            <input type="email" id="email" name="email" placeholder="이메일" required>
+          </div>
 
-          <button type="submit">Submit</button>
+          <div class="inputFieldMessage">
+            <label for="message">메시지 작성을 해주세요</label>
+            <textarea id="message" name="message" placeholder="저에게 하고 싶은 말을 적어주세요" required> </textarea>
+          </div>
+
+          <button type="submit">작성완료</button>
         </form>
       </div>
       </main>  
